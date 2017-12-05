@@ -14,7 +14,7 @@
 
 # 폼
 
-* > 상위 태그에 .form-group을 달아줌, input 태그에는 form-control을 달아줌
+> 상위 태그에 .form-group을 달아줌, input 태그에는 form-control을 달아줌
 
 ```html
 <form role="form">
@@ -25,7 +25,7 @@
 </form> 
 ```
 
-* > inline 스타일
+> inline 스타일
 
 ```html
 
@@ -37,7 +37,7 @@
 </form>
 ```
 
-* > 그리드시스템을 이용한 수평폼
+> 그리드시스템을 이용한 수평폼
 
 ```html
  <form class="form-horizontal" role="form">  
@@ -49,4 +49,6 @@
     </div>   
 ```
 
-* > textarea의 경우 row
+* textarea의 경우 row 값만 지정해주면됨
+* input 속성 중 disabled 설정하면 부트스트랩 고유 디자인이 적용됨
+* filedset으로 구분할 수 있음
