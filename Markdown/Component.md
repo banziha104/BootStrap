@@ -67,4 +67,62 @@
     </div>    
 ```
 
-### ㅇ
+---
+
+<br />
+
+### 입력 그룹
+
+
+```html
+
+<div class="input-group">
+    <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+    <input type="text" class="form-control" placeholder="아이디">
+</div>
+<div class="input-group">
+    <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+    <input type="text" class="form-control" placeholder="비밀번호">
+</div>
+```
+
+---
+
+<br />
+
+### 네비게이션
+
+> 네비게이션과 네비게이션 바 두가지의 내비게이션 기능이 있다 .nav 라는 선택자이용
+
+알약형 : 좌우정렬 가능하고 수직으로 만들수 있음, 양쪽정렬도 가능
+
+```html
+ <div class="col-md-3">
+     <ul class="nav nav-pills nav-stacked">
+         <li class="active"><a href="#">메뉴1</a></li>
+         <li><a href="#">메뉴2</a></li>
+         <li><a href="#">메뉴3</a></li>
+         <li><a href="#">메뉴4</a></li>
+     </ul>
+    </div>
+```
+
+<br />
+
+탭형 
+
+```html
+<br>  
+  <div class="clearfix"></div>
+    <h4>탭형 네비게이션 양쪽 정렬 </h4>
+     <ul class="nav nav-tabs nav-justified">
+         <li class="active"><a href="#">메뉴1</a></li>
+         <li><a href="#">메뉴2</a></li>
+         <li><a href="#">메뉴3</a></li>
+         <li><a href="#">메뉴4</a></li>
+     </ul>
+    <br>
+```
+
+
+## 네비게이션 바
