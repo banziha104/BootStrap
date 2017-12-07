@@ -125,4 +125,155 @@
 ```
 
 
-## 네비게이션 바
+### 네비게이션 바
+
+
+### 경로와 페이지 네이션
+
+> 페이지 네이션
+```html
+
+<ul class="pagination">
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">6</a></li>
+    <li><a href="#">7</a></li>
+    <li><a href="#">8</a></li>
+    <li><a href="#">9</a></li>
+</ul>
+```
+
+> 경로
+
+```html
+  <ol class="breadcrumb">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">menu1 </a></li>
+    <li class="active">submenu</li>
+  </ol>
+```
+
+<br />
+
+---
+
+### 라벨과 배지
+
+> 라벨은 커뮤니티 게시판이나 블로그에 새로운 글이 올라온 경우 새로운 글이 있다는 것을 표시해주는 역할과 비슷 
+
+```html
+<div class="container">  
+<h1> 라벨과 배지 </h1>
+
+<h4>라벨 사용 </h4>
+ <table class="table">
+  <thead>
+   <tr>
+     <th>번 호 </th>
+     <th>제 목</th>
+     <th>글쓴이</th>
+   </tr>
+   </thead>
+   <tr>
+     <td>1</td>
+     <td>테이블 테스트  테이블 테스트 테이블 테스트  <span class="label label-default"> New </span></td>
+     <td>홍길동</td>
+   </tr>
+   <tr>
+     <td>2</td>
+     <td>테이블 테스트  테이블 테스트 테이블 테스트 <span class="label label-danger"> 중요 </span></td>
+     <td>임꺽정 </td>
+   </tr>
+   <tr>
+     <td>3</td>
+     <td>테이블 테스트  테이블 테스트 테이블 테스트 <span class="label label-info"> 정보 </span></td>
+     <td>성춘향 </td>
+   </tr>   
+ </table>
+  <hr>
+
+<span class="label label-default">Default</span>
+<span class="label label-primary">Primary</span>
+<span class="label label-success">Success</span>
+<span class="label label-info">Info</span>
+<span class="label label-warning">Warning</span>
+<span class="label label-danger">Danger</span>
+
+
+<hr>
+<h4> 배지 </h4>
+
+    <div class="col-xs-3">
+     <ul class="nav nav-pills nav-stacked">
+         <li class="active"><a href="#">  <span class="badge pull-right">42</span>메뉴1</a></li>
+         <li><a href="#">메뉴2</a></li>
+         <li><a href="#">메뉴3</a></li>
+         <li><a href="#"><span class="badge pull-right">10</span> 메뉴4</a></li>
+     </ul>
+    </div>
+```
+
+### 점보트론
+
+> 점보트론은 사이트에서 일반적으로 프론트 페이지 또는 아주 중요한 페이지에서 해당 콘텐츠를 강조할 떄 사용
+
+```html
+<div class="container">
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Hello, World! <small>점보트로오오오온</small></h1>
+            <p> 일반글꼬오오올</p>
+            <p><a class="btn btn-success btn-lg">Learn More</a></p>
+        </div>
+    </div>
+</div>
+```
+
+<br />
+
+### 썸네일
+
+```html
+<div class="row">
+    <div class="col-sm-6 col-md-3">
+      <div class="thumbnail">
+        <img src="DSC_6305.jpg" alt="...">
+          <div class="caption">
+            <h3>제목과 </h3>
+            <p>내용도 넣을 수 있다.</p>
+            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        </div>
+      </div>
+    </div> 
+```
+
+<br />
+
+### 경보와 진행바
+
+```html
+<div class="progress">
+    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="40">
+        40%
+    </div>
+</div>
+<div class="container">
+    <div class="alert alert-success"></div>
+    <div class="alert alert-info"></div>
+    <div class="alert alert-warning"></div>
+    <div class="alert alert-danger"></div>
+</div>
+```
+
+### 미디어 객체 목록 그룹 패널 , Wells
+
+> 미디어 객체는 게시판 또는 블로그에서 댓글을 처리하는 부분을 말함
+
+```html
+
+```
+
+> 패널
